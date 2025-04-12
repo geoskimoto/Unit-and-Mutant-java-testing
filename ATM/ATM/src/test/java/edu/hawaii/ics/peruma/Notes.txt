@@ -1,0 +1,1 @@
+Realized just needed to create tests for the class ATM as it uses Customer and ProcessStatus covering 100% of their lines.
