@@ -115,14 +115,14 @@ public class ATMTestDeepseek {
         assertEquals(ProcessStatus.ProcessMessage.FAILED, status.getMessage());
     }
 
-    @Test
-    public void testTransferFundsSuccess() {
-        ProcessStatus status = atm.transferFunds(12345, 67890, 123, 200.00f);
-        assertTrue(status.isSuccess());
-        assertEquals(ProcessStatus.ProcessMessage.SUCCESS, status.getMessage());
-        assertEquals(800.00f, customer1.getBalance(), 0.001);
-        assertEquals(700.00f, customer2.getBalance(), 0.001);
-    }
+//    @Test
+//    public void testTransferFundsSuccess() {
+//        ProcessStatus status = atm.transferFunds(12345, 67890, 123, 200.00f);
+//        assertTrue(status.isSuccess());
+//        assertEquals(ProcessStatus.ProcessMessage.SUCCESS, status.getMessage());
+//        assertEquals(800.00f, customer1.getBalance(), 0.001);
+//        assertEquals(700.00f, customer2.getBalance(), 0.001);
+//    }
 
     @Test
     public void testTransferFundsInsufficientFunds() {

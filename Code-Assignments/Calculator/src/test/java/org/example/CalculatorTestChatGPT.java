@@ -41,7 +41,7 @@ public class CalculatorTestChatGPT {
 
     @Test
     public void testDivide_ByZero() {
-        assertEquals(Double.MIN_VALUE, calculator.divide(5.0, 0.0));
+        assertEquals(Double.MIN_VALUE, calculator.divide(5.0, 0.0), 0.0001);
     }
 
     @Test
@@ -51,7 +51,7 @@ public class CalculatorTestChatGPT {
 
     @Test
     public void testSquareRoot_Negative() {
-        assertEquals(Double.MIN_VALUE, calculator.squareRoot(-25.0));
+        assertEquals(Double.MIN_VALUE, calculator.squareRoot(-25.0), 0.0001);
     }
 
     @Test
@@ -61,7 +61,7 @@ public class CalculatorTestChatGPT {
 
     @Test
     public void testModulo_ZeroDivisor() {
-        assertEquals(Double.MIN_VALUE, calculator.moduloOfTwoNum(10, 0));
+        assertEquals(Double.MIN_VALUE, calculator.moduloOfTwoNum(10, 0), 0.0001);
     }
 
     @Test

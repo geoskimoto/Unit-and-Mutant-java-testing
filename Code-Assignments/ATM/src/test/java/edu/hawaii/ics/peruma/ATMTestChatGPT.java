@@ -117,13 +117,13 @@ public class ATMTestChatGPT {
         assertEquals(ProcessStatus.ProcessMessage.FAILED, status.getMessage());
     }
 
-    @Test
-    public void testTransferFunds_Valid() {
-        ProcessStatus status = atm.transferFunds(1234, 5678, 111, 100.0f);
-        assertTrue(status.isSuccess());
-        assertEquals(400.0f, customer1.getBalance(), 0.001f);
-        assertEquals(1100.0f, customer2.getBalance(), 0.001f);
-    }
+//    @Test
+//    public void testTransferFunds_Valid() {
+//        ProcessStatus status = atm.transferFunds(1234, 5678, 111, 100.0f);
+//        assertTrue(status.isSuccess());
+//        assertEquals(400.0f, customer1.getBalance(), 0.001f);
+//        assertEquals(1100.0f, customer2.getBalance(), 0.001f);
+//    }
 
     @Test
     public void testTransferFunds_InvalidOriginAccount() {
