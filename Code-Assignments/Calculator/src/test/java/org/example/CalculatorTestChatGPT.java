@@ -1,4 +1,4 @@
-package org.example;
+package edu.hawaii.ics.peruma;
 
 import org.junit.Before;
 import org.junit.Test;

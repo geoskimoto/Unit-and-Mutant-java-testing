@@ -1,4 +1,4 @@
-package org.example;
+package edu.hawaii.ics.peruma;
 
 public class Calculator {
 
