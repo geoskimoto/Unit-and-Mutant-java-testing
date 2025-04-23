@@ -20,7 +20,7 @@
                         <param>edu.hawaii.ics.peruma.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>edu.hawaii.ics.peruma.*</param>
+                        <param>edu.hawaii.ics.peruma.CalculatorTestManual</param>
                     </targetTests>
                     <outputFormats>
                         <param>HTML</param>
@@ -51,4 +51,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

@@ -1,0 +1,5 @@
+After cc'ing into directory with the pom.xml and configuring it, run:
+
+mvn clean install
+mvn org.pitest:pitest-maven:mutationCoverage
+

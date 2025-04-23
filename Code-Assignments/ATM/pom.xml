@@ -23,7 +23,7 @@
                         <param>edu.hawaii.ics.peruma.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>edu.hawaii.ics.peruma.*</param>
+                        <param>edu.hawaii.ics.peruma.ATMTestDeepseek</param>
                     </targetTests>
                     <outputFormats>
                         <param>HTML</param>
